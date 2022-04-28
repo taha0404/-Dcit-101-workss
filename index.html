@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Taha" />
+    <link href="style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        margin: 0px;
+      }
+
+      .menu {
+        background-color: #404040;
+        box-sizing: border-box;
+        padding: 15px 0px 5px 1px;
+        overflow: hidden;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+      }
+      .menu a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        margin-right: 50px;
+        font-family: sans-serif;
+      }
+
+      .header {
+        height: 700px;
+        background-color: #150000;
+      }
+      .com {
+        color: white;
+        width: 14.1%;
+        position: relative;
+        top: 90px;
+        left: 640px;
+        padding: 50px;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 600;
+      }
+      .des {
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: sans-serif;
+        width: 41.4%;
+        position: relative;
+        left: 480px;
+        top: 80px;
+      }
+      .des2 {
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+        width: 78.6%;
+        position: relative;
+        top: 140px;
+        left: 150px;
+      }
+      .des3 {
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+        width: 41%;
+        position: relative;
+        top: 160px;
+        left: 450px;
+      }
+      .muse {
+        height: 1270px;
+        background-color: #171717;
+      }
+      .emo {
+        color: white;
+        font-size: 30;
+        font-family: sans-serif;
+        font-weight: 600;
+        width: 5.6%;
+        position: relative;
+        left: 750px;
+        top: 50px;
+      }
+      .mil {
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: sans-serif;
+        width: 25.4%;
+        position: relative;
+        top: 100px;
+        left: 600px;
+      }
+      .exp {
+        color: white;
+        font-size: 22px;
+        font-family: sans-serif;
+        font-weight: 600px;
+        width: 86%;
+        text-align-last: center;
+        position: relative;
+        top: 140px;
+        left: 100px;
+      }
+      .btn {
+        color: white;
+        background-color: rgb(160, 0, 0);
+        font-size: 16px;
+        font-family: sans-serif;
+        width: 10.8%;
+        padding: 15px;
+        text-align: center;
+        position: relative;
+        top: 180px;
+        left: 700px;
+      }
+      .mini {
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+        width: 31.7%;
+        position: relative;
+        top: 220px;
+        left: 540px;
+      }
+      .img {
+        width: 82%;
+        position: relative;
+        top: 250px;
+        left: 150px;
+      }
+      .dis {
+        height: 1275px;
+        background-color: #eeeeee;
+      }
+      .hed {
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 600;
+        width: 57.3%;
+        position: relative;
+        top: 70px;
+        left: 360px;
+      }
+      .bek {
+        font-size: 22px;
+        font-family: sans-serif;
+        width: 85%;
+        text-align-last: center;
+        position: relative;
+        top: 100px;
+        left: 140px;
+      }
+      .btc {
+        font-size: 16px;
+        background-color: midnightblue;
+        font-family: sans-serif;
+        width: 5.3%;
+        padding: 13px;
+        position: relative;
+        top: 120px;
+        left: 750px;
+      }
+      .imag {
+        width: 77.5%;
+        position: relative;
+        top: 125px;
+        left: 200px;
+      }
+      .ast {
+        height: 450px;
+        background-image: url(images/stars11.jpg);
+        background-size: cover;
+      }
+      .goss {
+        color: white;
+        font-size: 28px;
+        font-family: sans-serif;
+        font-weight: 600;
+        width: 47%;
+        position: relative;
+        top: 180px;
+        left: 400px;
+      }
+      .lorem {
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+        text-align: center;
+        width: 78%;
+        position: relative;
+        top: 220px;
+        left: 200px;
+      }
+      .card {
+        height: 500px;
+        background-color: #eeeeee;
+      }
+      .char {
+        width: 500px;
+        height: 340px;
+        position: relative;
+        top: 120px;
+        left: 150px;
+      }
+      .imeg {
+        max-height: 400px;
+        max-width: 500px;
+      }
+      .crd {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 600;
+        position: relative;
+        bottom: 280px;
+        left: 800px;
+      }
+      .essy {
+        font-size: 17px;
+        font-family: sans-serif;
+        text-align: left;
+        width: 40%;
+        position: relative;
+        bottom: 240px;
+        left: 800px;
+      }
+      .foot {
+        height: 300px;
+        background-color: #171717;
+      }
+      .shop {
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        width: 12%;
+        position: relative;
+        top: 30px;
+        left: 200px;
+        text-align: left;
+      }
+      .orange {
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        width: 12%;
+        position: relative;
+        bottom: 163px;
+        left: 500px;
+        text-align: left;
+      }
+      .edu {
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        width: 12%;
+        position: relative;
+        bottom: 356px;
+        left: 800px;
+        text-align: left;
+      }
+      .about {
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        width: 12%;
+        position: relative;
+        bottom: 549px;
+        left: 1100px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="#">Taha Music</a>
+      <a href="#">Overview</a>
+      <a href="#">Music</a>
+      <a href="#">Artists</a>
+      <a href="#">Momo Pay</a>
+    </div>
+
+    <div class="header">
+      <div class="com">Taha Music</div>
+
+      <div class="des">Your music,take center stage.</div>
+
+      <div class="des2">
+        Taha Music is the best way to organize and enjoy the music you already
+        have — and buy for the ones you want.
+      </div>
+
+      <div class="des3">
+        Enjoy all the entertainment Taha Music has to offer on your Mac and PC.
+      </div>
+    </div>
+
+    <div class="muse">
+      <div class="emo">Music</div>
+
+      <div class="mil">45 million songs. Zero ads.</div>
+
+      <div class="exp">
+        Stream over 45 million songs, ad-free. Or download albums and tracks to
+        listen to offline. All the music in your personal Taha Music library —
+        no matter where it came from — lives right alongside the Taha Music
+        catalog. Start your free three-month trial with no commitment, and
+        cancel anytime.
+      </div>
+
+      <div class="btn">Start Your Trial Now</div>
+
+      <div class="mini">
+        Taha Music Music is available on the play store and app store, and for
+        iOS and Android devices.
+      </div>
+
+      <div class="img">
+        <img src="images/0f5d7baed46f4716682ce360db99337c.jpg" />
+      </div>
+    </div>
+
+    <div class="dis">
+      <div class="hed">
+        The music collection you always wished for. Granted.
+      </div>
+
+      <div class="bek">
+        With over 100,000 music to choose from, there’s always something great
+        to listen to on Taha Music and, you’ll be able to enjoy a tremendous
+        selection of your favorite Artists in dolby strereo. So get ready to
+        enjoy music of your favororite Artists — anytime, anywhere. Just tap to
+        listen, or even download if you’re going somewhere you won’t have Wi-Fi.
+      </div>
+
+      <div class="btc">Read More</div>
+
+      <div class="imag">
+        <img src="images/2a.jpg" />
+      </div>
+    </div>
+
+    <div class="ast">
+      <div class="goss">
+        A world of Music. Available wherever you are across Ghana.
+      </div>
+
+      <div class="lorem">
+        The best assortment of music worldwide can be found on this site at very
+        affordable prices made available for purchase by Taha Music .Convienient
+        as Always.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="char"><img src="images/bb.webp"imeg" /></div>
+
+      <div class="crd">Sign UP</div>
+
+      <div class="essy">
+        signing up is now very easy using the taha music player by purchasing
+        via mobile money portals such as MTN,Vodafone or Airteltigo
+        <br />
+        <br />
+        <br />
+        Already have a Taha Music Account?
+        <hr />
+        <br />
+        Redeem
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="shop">
+        Shop & Learn
+        <hr />
+        Music
+        <br />
+        <br />
+        Artists
+        <br />
+        <br />
+        Playlists
+        <br />
+        <br />
+        Download Taha Music App
+        <br />
+        <br />
+        Momo Pay
+      </div>
+
+      <div class="Taha">
+        Taha Music Store
+        <hr />
+        Find a Store
+        <br />
+        <br />
+        Today at Taha music
+        <br />
+        <br />
+        Taha Music Camp
+        <br />
+        <br />
+        Financing
+        <br />
+        <br />
+        Order Status
+      </div>
+
+      <div class="edu">
+        Education & Business
+        <hr />
+        Taha Music and Education
+        <br />
+        <br />
+        Shop For College
+        <br />
+        <br />
+        Taha Music & Business
+        <br />
+        <br />
+        Shop For Business
+        <br />
+        <br />
+        Jobs
+      </div>
+
+      <div class="about">
+        About Taha Music
+        <hr />
+        Newsroom
+        <br />
+        <br />
+        Taha Leadership
+        <br />
+        <br />
+        Investors
+        <br />
+        <br />
+        Events
+        <br />
+        <br />
+        Contact Taha
+      </div>
+    </div>
+  </body>
+</html>
